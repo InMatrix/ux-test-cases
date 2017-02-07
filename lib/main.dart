@@ -61,7 +61,31 @@ class _MyHomePageState extends State<MyHomePage> {
           )
         ]
       ),
-      body: new Center(
+      body: new Container(
+        child: new Card(
+          child: new Column(
+              children: [
+                new Row(
+                    children: <Widget> [
+                      new Icon(Icons.restaurant_menu),
+                      new Text('162 Charleston Road'),
+                    ]
+                ),
+                new Row(
+                    children: <Widget> [
+                      new Icon(Icons.contact_phone),
+                      new Text('(408) 555 1212'),
+                    ]
+                ),
+                new Row(
+                    children: <Widget> [
+                      new Icon(Icons.contact_mail),
+                      new Text('costa@google.com'),
+                    ]
+                ),
+              ]
+          )
+        )
 
       ), // This trailing comma tells the Dart formatter to use
       // a style that looks nicer for build methods.
