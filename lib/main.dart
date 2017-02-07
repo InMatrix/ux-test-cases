@@ -84,9 +84,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     ]
                 ),
               ]
-          )
-        )
-
+          ),
+        ),
       ), // This trailing comma tells the Dart formatter to use
       // a style that looks nicer for build methods.
     );
