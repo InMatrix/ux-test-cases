@@ -1,6 +1,6 @@
 # ux_test_cases
 
-A new flutter project.
+This project includes UX test cases for the Flutter IDE (IntelliJ + Dart Plugin + Flutter Plugin).
 
 ## Getting Started
 
